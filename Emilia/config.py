@@ -18,7 +18,7 @@ class Config(object):
 
     SUPPORT_CHAT = "FOS_Community" # Support Chat Username
     UPDATE_CHANNEL = "FOREST_OF_SAVIOUR" # Update Channel Username
-    START_PIC = "https://pic-bstarstatic.akamaized.net/ugc/9e98b6c8872450f3e8b19e0d0aca02deff02981f.jpg@1200w_630h_1e_1c_1f.webp" # Start Image
+    START_PIC = "https://files.catbox.moe/pp61ko.jpg" # Start Image
     DEV_USERS = [6632519077] # Dev Users
     TOKEN = "7011123946:AAH6OMw44iRmGFBObURfZNcPP8xQEZM1JMw" # Bot Token from @BotFather
     CLONE_LIMIT = 50 # Number of clones your bot can make
