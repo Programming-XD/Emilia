@@ -1,0 +1,17 @@
+user:
+  name: AKITO
+  github: Programmer-XD
+
+language: "python"
+python_version: "3.13"
+
+commands:
+  build:
+    - "pip install -r requirements.txt"
+  package:
+    - "nano inxi"
+  start:
+    - "python3 -m Emilia"
+
+env:
+  - "ENVIRONMENT=production"
