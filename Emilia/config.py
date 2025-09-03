@@ -27,7 +27,7 @@ class Config(object):
     OWNER_ID = 6632519077
  
     TEMP_DOWNLOAD_DIRECTORY = "./" # Temporary Download Directory
-    BOT_NAME = "Kakashi" # Bot Name
+    BOT_NAME = "ᴋᴀᴋᴀꜱʜɪ ʜᴀᴛᴀᴋᴇ ʙᴏᴛ" # Bot Name
     WALL_API = "6950f53" # Wall API from wall.alphacoders.com
 
 
