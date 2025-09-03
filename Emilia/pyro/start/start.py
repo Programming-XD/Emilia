@@ -131,17 +131,5 @@ def startCheckQuery(message, StartQuery=None) -> bool:
     else:
         return False
 
-button = [[InlineKeyboardButton("Clone Commands", callback_data="bot_clone")]]
-
-@Client.on_callback_query()
-async def callback_query_handler(client, callback_query):
-    if callback_query.data == "clone_help":  
-        await callback_query.message.reply_text(clone_help, reply_markup=InlineKeyboardMarkup(button))
-        await callback_query.message.delete()
-        return
-    if callback_query.data == "bot_clone":   
-        await callback_query.message.reply_text(help_text, disable_web_page_preview=True)
-        await callback_query.message.delete()
-        return
 
 
