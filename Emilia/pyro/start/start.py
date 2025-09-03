@@ -37,10 +37,10 @@ async def starttt(client, message):
             buttons = [
                 [InlineKeyboardButton("✨ 𝗛𝗲𝗹𝗽", callback_data="help_back")],
                 [
-                    InlineKeyboardButton("💬 𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url=f"https://t.me/{SUPPORT_CHAT}"),
-                    InlineKeyboardButton("📰 𝗡𝗲𝘄𝘀", url=f"https://t.me/{UPDATE_CHANNEL}"),
+                    InlineKeyboardButton("💬 𝗙.𝗢.𝗦 𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url=f"https://t.me/{SUPPORT_CHAT}"),
+                    InlineKeyboardButton("📰 𝗙.𝗢.𝗦 𝗡𝗲𝘄𝘀", url=f"https://t.me/{UPDATE_CHANNEL}"),
                 ],
-                [InlineKeyboardButton("⚔️ 𝗙.𝗢.𝗦", url="")],  # ← Add your link here
+                [InlineKeyboardButton("⚔️ 𝗙.𝗢.𝗦", url="https://t.me/FOREST_OF_SAVIOUR_BOT")], 
             ]
 
             await message.reply_text(
