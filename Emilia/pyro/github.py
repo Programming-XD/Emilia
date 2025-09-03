@@ -7,7 +7,7 @@ from Emilia.utils.async_http import get
 
 
 @usage("/github [username]")
-@example("/github ArshCypherZ")
+@example("/github coder1")
 @description(
     "This will fetch information of given username from github.com and send it."
 )
