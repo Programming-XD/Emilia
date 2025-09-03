@@ -30,14 +30,13 @@ async def get_clone_info_by_bot_id(bot_id):
 async def stats_(event):
     users = await db.users.count_documents({})
     chats = await db.chats.count_documents({})
-   
-   message = (
-    f"⎯⎯⎯⎯⎯⎯⎯⎯ 𝗕𝗼𝘁 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 ⎯⎯⎯⎯⎯⎯⎯⎯\n"
-    f"• 𝗖𝗵𝗮𝘁𝘀 : {chats}\n"
-    f"• 𝗨𝘀𝗲𝗿𝘀 : {users}\n"
-    )
-   await event.reply(message)
 
+    message = (
+        f"⎯⎯⎯⎯⎯⎯⎯⎯ 𝗕𝗼𝘁 𝗦𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰𝘀 ⎯⎯⎯⎯⎯⎯⎯⎯\n"
+        f"• 𝗖𝗵𝗮𝘁𝘀 : {chats}\n"
+        f"• 𝗨𝘀𝗲𝗿𝘀 : {users}\n"
+    )
+    await event.reply(message)
 
 async def create_clone_client(user_id, token, bot_id):
     """Create and start a new clone client as a subprocess."""
